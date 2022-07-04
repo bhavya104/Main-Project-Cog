@@ -1,5 +1,6 @@
-# Main-Project
-Problem Statement : Cognizant Stock Price and Apps & Tools(Window View)
+# Main Project
+
+## Problem Statement : Cognizant World clock
 
 1. login to the BeCognizant Portal.
 2. get the logged user info in the BeCognizant portal.
@@ -10,101 +11,83 @@ Problem Statement : Cognizant Stock Price and Apps & Tools(Window View)
 Detailed Description: Main Project
 
 1. Login into the becognizant portal, with valid authentication.
-2. Take the screen shot of the user information and stock Data. 
-3. The stock data from both the google and cognizant  will be verified.
-4. To print the header apps present in the Window Icon of the BeCognizant Portal.
+2. Take the screen shot of the user information and world clock slider. 
+3. Print the current date and time from the slider and now change the slider and date and time  will be verified.
+4. Print the current date and time in the excel sheet and then also print the current date and time when slider is moved .
 
 Solution:
 
-REQUIREMENT 1
+REQUIREMENTS
 
 1. Navigate to BeCognizant Portal.
 2. Automate with valid login credentials.
 3. Authenticate with valid login credentials.
 4. Redirects to the becognizant homepage.
-5. Takes the screen shot and prints the user-info from the becognizant portal.
-
-REQUIREMENT 2
-
-1. Navigate to BeCognizant Portal.
-2. Authenticate with valid login credentials.
-3. Redirects to the becognizant homepage.
-4. Display and prints the information of the Cognizant Stock Data in becognizant portal.
-5. Take the screen shot of the Cognizant stock data in becognizant portal.
-
-REQUIREMENT 3
-
-1. Navigate to Google web browser.
-2. Searches as Cognizant and prints the Cognizant Stock Data in Google.
-3. Take the screen shot of the Cognizant stock price in Google.
-
-REQUIREMENT 4
-
-1. Navigate to BeCognizant Portal.
-2. Authenticate with valid login credentials.
-3. Redirects to the BeCognizant Homepage.
-4. Navigate to the windows icon and directed to the my apps, office 365, company apps respectively.
-5. Then capture the screenshot of the specified app section.
-
+5. Verify the homepage title and print it in console.
+6. Takes the screen shot and prints the user-info from the becognizant portal.
+7. Display and prints the current date and time in becognizant portal.
+8. Take the screen shot of the current date and time in becognizant portal.
+9.Now move the slider and verify the current date and time and take the screenshot.
+10.Close the browser.
 
 
 --------------------------------------------------------------------------------------------------------------
 #test-output :
 --------------------------------------------------------------------------------------------------------------
-Chrome Driver Started
-Title Verified
-Username:Choudhary, Rahul (Contractor)
-Stock Point in Cognizant Portal: 66.50
-Stock Percentage in Cognizant Portal: 1.08%
-Stock Point in Google: 66.50
-Stock Percentage in Google: 1.08%
-The Stock Prices on Cognizant Portal and in google are same.
+Page title contains Be.Cognizant
+The name for the Acoount is: LNU, Mridul (Contractor)
+The current time and Dates for diff location is: 
+
+TEANECK, NJ (ET)
+12:18
+AM
+04 July
 
 
-MY APPS 
- 
-No personal apps available
-
- 
-OFFICE 365 APPS 
- 
-Microsoft Teams
-CDB Interactive Collaboration - Yammer Group
-Outreach no Yammer
-Yammer
-COVID-19
-PowerPoint
-Excel
-Word
-Outlook
-OneNote
-Sharepoint
+LONDON, UK (BST)
+5:18
+AM
+04 July
 
 
-COMPANY APPS 
-
-Welcome Center
-Amplify
-mainspring
-African-American Latino Group
-Trutime
-Timesheet
-Timesheet
-mainspring
-ESA Timesheet
-Cognizant Cheers
-Peoplesoft HCM
-Global Business Cards
+INDIA (IST)
+9:48
+AM
+04 July
 
 
+Current Date Time: 04 07 2022 9:48 AM
+TEANECK, NJ(ET) :03 07 2022 11:18 PM
+LONDON, UK(BST) :04 07 2022 4:18 AM
+
+
+The time and Dates for diff location by changing local time is: 
+
+
+TEANECK, NJ (ET)
+3:18
+AM
+04 July
+
+
+LONDON, UK (BST)
+8:18
+AM
+04 July
+
+
+INDIA (IST)
+12:48
+PM
+04 July
 
 
 
 
 
 ===============================================
-Be Cognizant Portal
-Total tests run: 5, Passes: 5, Failures: 0, Skips: 0
+Main Project
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
 ===============================================
 
 
